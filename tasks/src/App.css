@@ -1,0 +1,44 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.task-form input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ff6b6b;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: #ff3b3b;
+}
